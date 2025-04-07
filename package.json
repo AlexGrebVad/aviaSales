@@ -191,7 +191,7 @@
 		"endOfLine": "lf"
 	},
 	"engines": {
-		"node": ">=18.x",
+		"node": ">=12.x",
 		"npm": ">=9.0.0"
 	},
 	"vercel": {
