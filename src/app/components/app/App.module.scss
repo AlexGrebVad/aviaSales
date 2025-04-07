@@ -1,0 +1,45 @@
+@font-face {
+	font-family: 'Open Sans';
+	src: url('/fonts/OpenSans-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Open Sans Bold';
+	src: url('/fonts/OpenSans-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+.main-wrapper {
+	font-family: Open Sans;
+	line-height: 24px;
+	text-align: left;
+}
+
+.logo-wrapper {
+	width: fit-content;
+	margin: 50px auto;
+}
+
+.tickets-parameters-wrapper {
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+}
+
+.tab-ticket-wrapper {
+	height: fit-content;
+	min-width: 500px;
+}
+
+@media (max-width: 810px) {
+	.tickets-parameters-wrapper {
+		flex-direction: column;
+	}
+	.tab-ticket-wrapper {
+		height: fit-content;
+		min-width: 300px;
+	}
+}

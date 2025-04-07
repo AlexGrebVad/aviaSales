@@ -1,0 +1,58 @@
+.ticket-tabs-wrapper {
+	display: flex;
+}
+
+.ticket-tabs-wrapper button {
+	font-family: Open Sans;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+	text-align: center;
+	text-transform: uppercase;
+	flex-grow: 1;
+	text-decoration: none;
+	color: inherit;
+	display: block;
+	padding: 15px;
+	background: #fff;
+	border: 1px solid rgb(223, 229, 236);
+	cursor: pointer;
+}
+
+.ticket-tabs-wrapper button:first-child {
+	border-radius: 5px 0 0 5px;
+}
+.ticket-tabs-wrapper button:last-child {
+	border-radius: 0 5px 5px 0;
+}
+.ticket-tabs-wrapper button:hover {
+	border-color: rgb(33, 150, 243);
+	border: 1px solid rgb(33, 150, 243);
+}
+
+.activeButton {
+	transition: 0.3s;
+	color: #fff !important;
+	background: rgb(33, 150, 243) !important;
+}
+
+@media (max-width: 810px) {
+	.ticket-tabs-wrapper {
+		// width: 300px;
+		flex-direction: column;
+	}
+	.ticket-tabs-wrapper button {
+		min-width: 40%;
+		max-width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 0;
+	}
+	.ticket-tabs-wrapper button:first-child {
+		border-radius: 0 0 0 0;
+	}
+	.ticket-tabs-wrapper button:last-child {
+		border-radius: 0 0 0 0;
+	}
+}

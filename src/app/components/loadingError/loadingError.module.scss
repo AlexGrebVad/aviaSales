@@ -1,0 +1,62 @@
+.centeredSpinner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 30vh;
+}
+
+.largeSpinner {
+	font-size: 24px;
+}
+
+.centeredSpinner :global(.ant-spin-dot) {
+	font-size: 60px;
+}
+
+.centeredSpinner :global(.ant-spin-dot i) {
+	width: 100px;
+	height: 100px;
+}
+
+.errorBlock {
+	margin-top: 20px;
+	background-color: #42a5f5;
+	border-color: #2196f3;
+	border-radius: 8px;
+}
+
+.closeIcon {
+	width: 20px;
+	height: 20px;
+	background: darkblue;
+	color: white;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+}
+
+.buttonWrapper > button {
+	width: 500px;
+	height: 50px;
+}
+
+@media (max-width: 810px) {
+	.buttonWrapper {
+		display: flex;
+		justify-content: center;
+	}
+	.buttonWrapper > button {
+		width: 100%;
+		padding: 0px;
+		margin: 0px auto;
+		max-width: 85%;
+		height: 50px;
+	}
+
+	.errorBlock {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}

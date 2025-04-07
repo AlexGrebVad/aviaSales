@@ -1,0 +1,11 @@
+.ticketsLoaderHeader {
+	width: fit-content;
+	margin: 20px auto;
+}
+
+.ticketsLoaderLoadingBlock {
+	background: rgb(33, 150, 243);
+	height: 20px;
+	border-radius: 5px;
+	transition: width 1s ease;
+}
