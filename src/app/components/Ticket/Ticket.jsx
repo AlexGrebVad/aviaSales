@@ -38,7 +38,6 @@ function transferGramma(transferCount) {
 }
 
 function Ticket({ ticketItem }) {
-	console.log(ticketItem)
 	return (
 		<div className={styles['ticket-wrapper']}>
 			<div className={styles['ticket-wrapper__header']}>
