@@ -11,7 +11,7 @@ function App() {
 		<Provider store={store}>
 			<section className={styles['main-wrapper']}>
 				<div className={styles['logo-wrapper']}>
-					<img className="img" src="\src\imgs\Logo.svg" alt="Company Logo" />
+					<img className="img" src="/imgs/Logo.svg" alt="Company Logo" />
 				</div>
 
 				<div className={styles['tickets-parameters-wrapper']}>
